@@ -1,0 +1,100 @@
+.text-search-box {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: auto;
+  border: 0px solid green;
+  color: #444;
+}
+
+.text-input {
+  padding: 0 2px 0 2px;
+}
+
+.text-list {
+  list-style: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding-left: 0px;
+  margin-top: 0px;
+  display: none;
+  z-index: 1000;
+  background: #ffffff;
+}
+
+.text-list li {
+  line-height: 24px;
+  border-bottom: 0px solid red;
+  width: 100%;
+  padding: 2px 4px 2px 4px;
+}
+
+.text-list-li-active {
+  background: deepskyblue;
+  color: #fff;
+}
+
+/* skin gray */
+.text-input-gray {
+  border: 1px solid #cccccc;
+}
+
+.text-list-gray {
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+.text-list-li-active-gray {
+  background: deepskyblue;
+  color: #fff;
+}
+
+/* skin green */
+.text-input-green {
+  border: 1px solid green;
+}
+
+.text-list-green {
+  border: 1px solid green;
+  background: #ffffff;
+}
+
+.text-list-li-active-green {
+  background: green;
+  color: #fff;
+}
+
+/* skin blue */
+.text-input-blue {
+  border: 1px solid blue;
+  background: #fff;
+}
+
+.text-list-blue {
+  border: 1px solid blue;
+  background: #fff;
+}
+
+.text-list-li-active-blue {
+  background: blue;
+  color: #fff;
+}
+
+/* skin black */
+.text-input-black {
+  border: 1px solid #fff;
+  background: black;
+  color: #ffffff;
+}
+
+.text-list-black {
+  border: 1px solid #fff;
+  background: black;
+  color: #ffffff;
+}
+
+.text-list-li-active-black {
+  background: #ffffff;
+  color: #444444;
+}
